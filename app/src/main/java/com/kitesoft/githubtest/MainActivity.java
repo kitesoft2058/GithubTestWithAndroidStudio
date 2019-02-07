@@ -13,5 +13,8 @@ public class MainActivity extends AppCompatActivity {
 
         TextView tv= findViewById(R.id.tv);
         tv.setText("Nice GitHub!");
+        
+        //원격저장소[GitHub]에서 문서 업데이트
+        tv.setTextSize(40);
     }
 }
