@@ -16,5 +16,8 @@ public class MainActivity extends AppCompatActivity {
         
         //원격저장소[GitHub]에서 문서 업데이트
         tv.setTextSize(40);
+
+        //새로운 branch에서 GitHub로 push하기
+        tv.setTextColor(0xFFFF0000);
     }
 }
